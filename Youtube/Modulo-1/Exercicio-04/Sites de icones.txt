@@ -1,0 +1,4 @@
+Criar o seu próprio ícone: Favicon.cc
+Mais fácil de desenvolver imagem: Favicon.io
+Baixar ícone de graça: Icon Archive
+(talvez seja necessário descompactar o arquivo)

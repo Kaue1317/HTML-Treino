@@ -1,0 +1,12 @@
+<!DOCTYPE html>
+<head>
+    <html lang="pt-br"><!-usado para alterar o idioma da pagina->
+    <title>Para minha namorada
+    </title>
+<meta charset="utf-8"><!-charset e usado para usar caracteres tipo acentos->
+</head>
+<body bgcolor="pink">
+</body>
+    <body background="buque-8-rosa-colombianas-1200x630.png" 
+    <p align="center"><font face="verdana"><font size="100"> <font color="purple"> SEJA BEM VINDA PRINCESA </font></p>
+</body>

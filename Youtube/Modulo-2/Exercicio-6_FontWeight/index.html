@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fontes em CSS</title>
+    <style>
+        body{
+            font-weight: bold;
+            /*lighter, normal, bold, bolder*/
+            font-style: italic;
+            text-decoration: underline;
+            font-family: 'work sans',Arial, Helvetica, sans-serif;
+            font-size: 20px;
+            /*Usar PX ou EM*/
+            /*Medidas absolutas
+            cm, mm, in(polegada), px, pt, pc (paica) 
+            */
+            /*Medidas não absolutas
+            em(1 EM correstponde a 1 tamanho da fonte), ex, rem, vw (viewport width), vh (viewport height), vmin, vmax, %
+            */
+        }
+
+        h1{
+            /*font-family: 'work sans', Arial, Helvetica, sans-serif;
+            font-weight: 900;
+            font-size: 2.5em;
+            font-style: italic;
+            */
+
+            /* shorthand FONT
+            font-style > font-weight > font-size > line-height > font-family
+            */
+            
+            font: italic 900 2.5em/1.2 'work sans', Arial, Helvetica, sans-serif;
+        }
+    </style>
+</head>
+<body>
+    <h1>Trabalhando com fontes</h1>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste dicta natus neque non fugit vitae eos minima? Dignissimos accusantium quam placeat qui voluptates iure doloribus nulla! Deleniti hic tempore vero. Lorem ipsum dolor sit amet consectetur adipisicing elit. Enim, cupiditate! Tempore eos quas voluptatem nihil delectus voluptatibus nemo provident. Distinctio pariatur aut praesentium magni, reiciendis maxime voluptatum voluptatibus deleniti perferendis!</p>
+    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Incidunt, labore eveniet impedit rerum blanditiis aspernatur nesciunt. Nemo cumque vero alias? Consectetur unde recusandae eveniet molestias itaque a suscipit ea at.</p>
+
+    <h2>Subtitulo do exercicio</h2>
+    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Cupiditate nulla, quis nesciunt voluptatem inventore neque est beatae ullam facilis, velit reprehenderit ut esse ipsam tempora fugiat pariatur quam nostrum ratione?</p>
+</body>
+</html>

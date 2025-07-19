@@ -1,0 +1,5 @@
+SÃO TAGS QUE O PRINCIPAL FOCO PODE SER REALIZADA EM OUTRA "LINGAGEM" (CSS, JAVASCRIPT)
+Obsolete Tags- tags que não funcionam mais
+(center, bgcolor)
+Semi Obsoletas
+("B" negrito, "I" itálico)

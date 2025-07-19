@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="SimboloTeste.webp" type="image/x-icon">
+    <title>Todas as TAGs</title>
+    
+</head>
+<body>
+    <header>
+        <h1>Nesta página eu vou usar todos os comandos já aprendidos, não é para ser bonita e sim para relembrar caso eu fique muito tempo ser ver html</h1>
+        <hr>
+        <p>Lembrar de melhorar o layout depois</p>
+    </header>
+    <nav>
+        <a href="#">Home</a>
+        <a href="#">Começo</a>
+        <a href="#">Meio</a>
+        <a href="#">Fim</a>
+    </nav>
+    <main>
+        <h2>Abaixo ficaram todas as TAGs e os motivos dela</h2>
+        <p>Logo mais abaixo teram usos delas</p>
+        <h2>SEMANTICAS</h2>
+
+        <!--
+        <h3><p><strong>HTML LANG                </strong> é ultilizado para "setar" o idioma</p></h3>
+        <h3><p><strong>HEAD                     </strong>Tem o conteúdo que não é visível na página</p></h3>
+        <h3><p><strong>DOCTYPE                  </strong> é ultilizado para "setar" o conteúdo da página</p></h3>
+        <h3><p><strong>META CHARSET= UTF-8      </strong>é ultilizado para colocar caractéres</p></h3>
+        <h3><p><strong>Link rel= href           </strong>pode ser usado para ligar um documento html a um css</p></h3>
+        <h3><p><strong>Link rel= href           </strong>é usado para colocar um ícone do lado do título</p></h3>
+        <h3><p><strong>TITLE                    </strong>Coloca um nome na página</p></h3>
+        <h3><p><strong>HEADER                   </strong>funciona como a cabeça da página visível, normalmente os       sites    mantém ele fixo no topo do site</p></h3>
+        <h3><p><strong>MAIN                     </strong>o conteúdo mais importante do site (provavelmente deve ajudar na pesquisa do google)</p></h3>
+        <h3><p><strong>FOOTER                   </strong>o fim da página, normalmente usado para deixar informações de contato</p></h3>
+        <h3><p><strong>H1                       </strong>titulo principal de uma página, cada página só pode ter um</p></h3>
+        <h3><p><strong>H2                       </strong>sub-titulo que pode ser usado para introduzir outros assuntos</p></h3>
+        <h3><p><strong>H3, H4, H5, H6           </strong>sub-titulos em ordem, como se fosse uma pirâmide</p></h3>
+        <h3><p><strong>P                        </strong>para criar parágrafos</p></h3>
+        <h3><p><strong>HR                       </strong>Cria uma linha</p></h3>
+        <h3><p><strong>FIELDSET                 </strong>cria um campo para organizar o site(parecido com hr)</p></h3>
+        <h3><p><strong>BR                       </strong>pular uma linha</p></h3>
+        <h3><p><strong>IMG                      </strong>Usado para colocar imagens (SRC:caminho da imagem,texto alternativo essencial para acessibilidade e SEO[jeito fácil])</p></h3>
+        <h3><p><strong>PICTURE                  </strong>usa imagens que se adaptam ao tamanho da tela (precisa do SOURCE para colocar imagem)</p></h3>
+        <h3><p><strong>SOURCE "MEDIA"           </strong>dentro da TAG picture faz as imagens serem dinâmicas / se adaptarem ao tamanho da tela. Também é usado para colocar audio</p></h3>
+        <h3><p><strong>SECTION                  </strong>cria uma sessão específica para um elemento(é melhor ultilizada com CSS, ex: SECTION CLASS)</p></h3>
+        <h3><p><strong>STYLE                    </strong>permite editar partes únicas com CSS</p></h3>
+        <h3><p><strong>STRONG                   </strong>deixa em negrito, melhor para os motores de busca do "google" entre outros</p></h3>
+        <h3><p><strong>EM                       </strong>coloca uma enfase na parte desejada</p></h3>
+        <h3><p><strong>MARK                     </strong>Usando junto com style você pode marcar o fundo de alguma palavra ou frase</p></h3>
+        <h3><p><strong>DEL                      </strong>indica que o texto foi deletado (deixa a palavra com um traço)</p></h3>
+        <h3><p><strong>INS                      </strong>para indicar que o texto foi introduzido depois</p></h3>
+        <h3><p><strong>OL                       </strong>cria listas ordenadas, uma série de passos tem que ser seguidos (uma lista pode ser colocada dentro da outra[precisa do LI])</p></h3>
+        <h3><p><strong>UL                       </strong>cria listas não ordenadas, os itens não precisam seguir uma série expecifica(uma lista podes ser colocada dentro da outra[precisa do LI])</p></h3>
+        <h3><p><strong>LI                       </strong>é usado para criar listas</p></h3>
+        <h3><p><strong>A HREF                   </strong>coloca um link que pode mandar para outra página</p></h3>
+        <h3><p><strong>A HREF DOWNLOAD          </strong>usado para baixar alguma coisa</p></h3>
+        <h3><p><strong>AUDIO SRF                </strong>coloca audio na página(precisa ter "CONTROLS AUTOPLAY" para criar um botão para tocar o audio)</p></h3>
+        <h3><p><strong>AUDIO PRELOAD            </strong>adapta o audio para diferentes extensões mp3, ogg, wav...(precisa ter "CONTROLS AUTOPLAY" para criar um botão para tocar o audio [o PRELOAD só faz o audio funcionar após o navegador baixar o audio inteiro])</p></h3>
+        <h3><p><strong>VIDEO                    </strong>adiciona videos(precisa ter CONTROLS para criar um botão para iniciar)</p></h3>
+        <h3><p><strong>TABLE                    </strong>começa uma tabela, é preciso usar as outras tags dentro dela</p></h3>
+        <h3><p><strong>TH                       </strong>cria o header de uma tabela, podendo ser linha ou coluna(tem que ser usado dentro de TR e principalmente TABLE)</p></h3>
+        <h3><p><strong>TR                       </strong>cria colunas de uma tabela(tem que ser usado dentro de uma TABLE)</p></h3>
+        <h3><p><strong>TD                       </strong>cria células de uma tabela(tem que ser usado dentro de TR e principalmente TABLE)</p></h3>
+        <h3><p><strong>INPUT                    </strong>cria um campo que o usuário pode escrever(precisa de uma estrutura para funcionar[provavelmente que seja em outra linguagem])</p></h3>
+        <h3><p><strong>PRE                      </strong>é usado para fazer o texto aparecer litealmente do mesmo jeito que foi escrito no VScode</p></h3>
+        <h3><p><strong>DIV                      </strong>separa um campo que pode ser alterado usando CSS</p></h3>
+        
+        <br>
+        <h2>NÃO SEMANTICAS</h2>
+        <h3><p><strong>BODY BGCOLOR             </strong>coloca cor no fundo da página</p></h3>
+        <h3><p><strong>CENTER                   </strong>coloca o texto/imagem no centro</p></h3>
+        <h3><p><strong>B                        </strong>deixa em negrito</p></h3>
+        <h3><p><strong>I                        </strong>deixa em itálico</p></h3>
+        <h3><p><strong>BIG                      </strong>deixa o testo grande</p></h3>
+        <h3><p><strong>SMALL                    </strong>deixa o testo pequeno</p></h3>
+        <h3><p><strong>U                        </strong>para sublinhar o texto</p></h3>
+        <h3><p><strong>SUP                      </strong>coloca letras ou números em cima (ex:um número elevado "2^2")</p></h3>
+        <h3><p><strong>SUB                      </strong>coloca letras ou números em baixo (ex:H2o)</p></h3>
+        <h3><p><strong>FONT SIZE                </strong>altera o tamanho das letras</p></h3>
+        -->
+    </main>
+
+    <footer>
+        <p>WhatsApp: 11 97777-7777</p>
+        <p>Email: naosei@gmail.com</p>
+        <p>Instagram: @naosei</p>
+        <p>LinkedIn: linkedin.com/in/naosei</p>
+    </footer>
+</body>
+</html>

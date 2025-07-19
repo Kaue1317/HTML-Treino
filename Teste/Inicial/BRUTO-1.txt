@@ -1,0 +1,12 @@
+<!DOCTYPE html>
+<head><html lang="pt-br"><!-usado para alterar o idioma da pagina-><title>Para minha namorada</title>
+<meta charset="utf-8"><!-charset e usado para usar caracteres tipo acentos-></head>
+<body bgcolor="pink"></body>
+<body>
+    <body background="buque-8-rosa-colombianas-1200x630.png" 
+    <i><p align="center"><font face="verdana"><font size="100%"> <font color="purple"> SEJA BEM VINDA PRINCESA </p align> </font face></font color></font size></i>
+
+<p align="left"><br>Muito obrigado por sempe estar comigo e por<br> sempre fazer os meus dias serem melhores.<br> Cada momento que passamos juntos acabam<br> sendo cada vez mais mágicos pra mim</p>
+ adipisicing elit. Unde, consequatur omnis. Error dicta quaerat nulla distinctio quia eum, magnam nostrum molestias assumenda vel, praesentium, neque doloremque beatae eligendi fugit ipsa.</br></p>
+</body>
+</html>

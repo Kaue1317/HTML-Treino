@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Links</title>
+    <style>
+        /* SELETORES PERSONALIZADOS
+        # = ID
+        . = Classe
+        : = Pseudo-classe
+        ::= Pseudo-elemento
+        > = children
+        */
+        body{
+            font-family: Arial, sans-serif;
+        }
+        a{
+            color: red;
+            text-decoration: none;
+            font-weight: bold;
+        }
+        a:visited{
+            color: darkred;
+        }
+        a:hover{
+            color: black;
+            text-decoration: underline;
+        }
+        a:active{
+            color: yellow;
+        }
+        .special::before{
+            content: '>';
+            color: lightblue;
+        }
+        .special:after{
+            content: '<';
+            text-decoration: none;
+            font-weight: normal;
+            color: lightblue;
+        }
+        .special{
+            background-color: rgba(255, 0, 0, 0.438);
+        }
+    </style>
+</head>
+<body>
+    <h1>Personalizando links</h1>
+    <ul>
+        <li><a href="https://www.youtube.com/" class="special" target="_blank">Repositório Github</a></li>
+        <li><a href="https://www.youtube.com/" target="_blank">Canal do youtube</a></li>
+        <li><a href="https://www.cursoemvideo.com/curso/curso-html5-e-css3-modulo-2-de-5-40-horas/aulas/modulo-2-2/modulos/capitulo-15-aula-04-pseudo-elementos-em-css/" target="_blank">Site do curso em video</a></li>
+    </ul>
+</body>
+</html>

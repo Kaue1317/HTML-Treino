@@ -1,0 +1,4 @@
+Padding: ela fica entre a palavra e a borda (serve como um acochoamento)
+Border: a borda (ela fica colada na palavra)
+Outline: contorno da borda
+Margin: é um espaço adicional em volta da borda (as vezes a borda fica colada com outra palavra de outra linha e a Margin resolve isso)
